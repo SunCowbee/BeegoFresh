@@ -58,6 +58,8 @@ cd /etc/redis/
 
 sudo redis-server /etc/redis/redis.conf 
 
+redis-cli -h 192.168.150.20 -p 6379
+
 #FastDFS
 
 sudo  fdfs_trackerd  /etc/fdfs/tracker.conf
